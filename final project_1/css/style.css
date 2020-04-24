@@ -1,0 +1,959 @@
+Google font*/
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:400,600|Open+Sans:400,400i|Raleway:400,500&display=swap');
+/*Common CSS Starts*/
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Raleway', sans-serif;
+*{
+	margin: 0;	
+	padding: 0;
+}
+h1,h2,h3,h4,h5,h6,p,a {
+	margin: 0px;	
+	padding: 0px;
+}
+h1,h2,h3,h4,h5,h6,a {
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 600;
+}
+p {
+   font-family: 'Open Sans', sans-serif;
+}
+ul,li,ol {
+	list-style: none;
+}
+html {
+	scroll-behavior: smooth;
+}
+a {
+	text-decoration: none;
+	 color: #fff;
+}
+a:hover {
+	text-decoration: none;
+	 color: #fff;
+}
+/*Common CSS Ends*/
+
+/*Header CSS Starts*/
+.header {
+	background: url(../img/banner.jpg) no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.h_overlay {
+	padding: 30px 0px 30px 0px;
+	background: rgba(0,0,0,0.6);
+}
+.navbar {
+	padding: 0;
+}
+.navbar-expand-lg .navbar-collapse {
+	margin-left: 15px;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+	padding: 0;
+	padding-left: 32px;
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 600;
+	font-size: 18px;
+}
+.navbar-expand-lg .navbar-nav .nav-icon {
+	margin-left: 203px;
+	font-size: 15px;
+	border: 1px solid #fff;
+	padding: 11px 14px;
+	border-radius: 30px;
+}
+.banner h1 {
+	font-size: 54px;
+	font-weight: 600;
+	color: #fff;
+	padding: 160px 0px 41px 0px;
+
+}
+.banner p {
+	font-size: 16px;
+	color: #fff;
+	padding-bottom: 58px;
+}
+.banner a {
+	font-size: 18px;
+	padding: 15px 20px;
+	border-radius: 30px;
+	border:1px solid #fff;
+	transition: all linear .3s;
+} 
+.banner a:hover {
+	border: none;
+	background: #147e90;
+}
+.left_a {
+	margin-left: 20px;
+}
+.numb {
+	padding-top: 123px;
+}
+.numb span {
+	color: #fff;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+/*Header CSS Ends*/
+
+/*About CSS Starts*/
+.about {
+	background: url(../img/about_usbanner.jpg) no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding: 60px 0px 69px 0px;
+}
+.ab_left {
+	margin-right: 3px;
+}
+.ab_right h2 {
+	font-size: 32px;
+	color: #fff;
+	font-weight: 600;
+}
+.ab_right img {
+	margin-bottom: 20px;
+}
+.ab_right p{
+	font-size: 14px;
+	color: #fff;
+	padding-bottom: 35px;
+}
+.ab_right a{
+	font-size: 20px;
+	color: #fff;
+	border: 1px solid #fff;
+	padding: 15px 20px;
+	transition: all linear .3s;
+	border-radius: 5px;
+	
+}
+.ab_right a:hover {
+	background: #fff;
+	color: #147e90;
+}
+
+/*About CSS Ends*/
+
+/*Services CSS Starts*/
+
+.services {
+	padding: 100px 0px 100px 0px;
+}
+.h_service {
+	padding-bottom: 60px;
+}
+.h_service h2 {
+	font-size: 32px;
+	color: #127e90;
+}
+.h_service img {
+	margin-bottom: 20px;
+}
+.ser_con_img {
+	position: relative;
+}
+.ser_con h4{
+	font-size: 20px;
+}
+.ser_con p{
+	font-size: 14px;
+	padding: 30px 0px 32px 0px;
+}
+.ser_con a {
+	color: #000;
+	font-style: italic;
+	font-weight: 400;
+}
+.ser_con i {
+	margin-left: 5px;
+}
+.ser_con {
+	position: absolute;
+	top: 60px;
+	left: 60px;
+}
+
+/*Services CSS Ends*/
+
+/*Clients CSS Starts*/
+
+.client {
+	background: url(../img/clients.jpg) no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.c_overlay {
+	padding: 43px 0px 42px 0px;
+	background: rgba(0,0,0,0.8);
+}
+.client_part {
+	width: 20%;
+}
+.client_part h5{
+	color: #fff;
+	font-size: ;
+}
+.client_part span {
+	color: #fff;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+/*Clients CSS Ends*/
+
+/*Portfolio CSS Ends*/
+
+.portfolio {
+	background: #147e90;
+	padding: 60px 0px 74px 0px;
+} 
+.h_port h2{
+	color: #fff;
+	font-size: 32px;
+}
+.h_img img{
+	margin-bottom: 20px;
+}
+.p_con {
+	position: relative;
+	padding-top: 60px;
+}
+.p_overlay {
+	height: 374px;
+	width: 320px;
+	background: rgba(0,0,0,0.8);
+	position: absolute;
+	top: 83px;
+	left: 15px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	opacity: 0;
+	transition: all linear .3s;
+}
+.p_overlay h6 {
+	padding-top: 21px;
+	font-size: 20px;
+	color: #fff;
+}
+.p_overlay i{
+	font-size: 19px;
+	padding: 16px 16px;
+	background: #fff;
+	color: #147e90;
+	border-radius: 25px;
+}	
+.p_con:hover .p_overlay {
+	opacity: 1;
+}
+.port_bt {
+	margin-top: 77px;
+}
+.port_bt a{
+	font-size: 20px;
+	color: #fff;
+	border: 1px solid #fff;
+	padding: 15px 20px;
+	transition: all linear .3s;
+	border-radius: 5px;	
+}
+.port_bt a:hover {
+	background: #fff;
+	color: #147e90;
+}
+
+/*Portfolio CSS Ends*/
+
+/*Our Team CSS Starts*/
+.team {
+	padding: 100px 0px 98px 0px;
+}
+.team_con {
+	position: relative;
+
+}
+.t_overlay {
+	height: 379px;	
+	width: 349px;
+	background: rgba(0,0,0,0.8);
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0;
+	transition: .3s;
+}
+.t_icons {
+	margin-right: 20px;
+}
+.t_icons li {
+	margin-bottom: 20px;
+}
+.twit i {
+	font-size: 10px;
+}
+.t_icons i {
+	font-size: 14px;
+	border: 1px solid #fff;
+	padding: 12px 14px;
+	border-radius: 20px;
+	color: #fff;
+	margin-top: 20px;
+	transition: .3s;
+}
+.t_icons i:hover {
+	border: none;
+	background: #d33472;
+}
+.t_con {
+	color: #fff;
+	padding-top: 70px;
+}
+.t_con h6 {
+	font-size: 24px;
+}
+.t_con p {
+	font-size: 16px;
+}
+.team_con .team_img:hover .t_overlay{
+	opacity: 1;
+}
+.team_bt a{
+	font-size: 20px;
+	color: #fff;
+	border: 1px solid #fff;
+	padding: 15px 20px;
+	transition: all linear .3s;
+	border-radius: 5px;	
+	background: #147e90;
+}
+.team_bt {
+	margin-top: 77px;
+}
+
+
+/*Our Team CSS Ends*/
+
+/*FAQ CSS Starts*/
+.h_port span {
+	font-family: 'Josefin Sans', sans-serif;
+}
+.fq {
+	background: #147e90;
+	padding: 61px 0px 60px 0px;
+}
+.fq_common {
+	height: 60px;
+	width: 540px;
+	background: #fff;
+	border-radius: 30px;
+	margin: 30px 0px 10px 0px;
+}
+.fq_common h5 {
+	padding-top: 20px;
+	padding-left: 30px;
+}
+.fq_common i {
+	color: #000;
+	margin-left: 155px;
+}
+.fq_text {
+	height: 205px;
+	width: 480px;
+	background: #fff;
+	margin-left: 30px;
+}
+.fq_text p {
+	font-size: 14px;
+	color: #444444;
+	padding: 30px;
+}
+.fq_right {
+	padding-bottom: 1px;
+}
+.fq_common:hover {
+	color: #147e90;
+}
+.fq_common:hover i{
+	color: #147e90;
+}
+
+
+/*FAQ CSS Ends*/
+
+/*Pricing CSS Starts*/
+.pricing {
+	background: #f1f1f1;
+	padding: 61px 0px 58px 0px;
+}
+.p_service h2 {
+	font-size: 32px;
+	color: #127e90;
+}
+.p_service img {
+	margin-bottom: 20px;
+}
+.pricing_btn {
+	height: 16px;  
+	width: 46px;
+	background: #fff;
+	border-radius: 20px;
+	display: inline-block;
+	box-shadow: 0px 0px 10px 1px #147e90;
+	margin: 0px 10px;
+
+}
+.main_btn {
+	height: 17px;  
+	width: 17px;
+	background: #147e90;
+	border-radius: 9px;
+	
+}
+.p_btn a {
+	font-size: 20px;
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 600;
+	color: #000;
+}
+.p_btn a:hover {
+	color: #147e90;
+}
+.pricetag {
+	height: 317px;
+	width: 368px;
+	background: #fff;
+	margin: 34px 0px 0px 0px;
+}
+.pricetag_h {
+	height: 60px;
+	width: 100%;
+	background: #147e90;
+	position: relative;
+}
+.book i {
+	font-size: 100px;
+	color: #fff;
+	position: absolute;
+	top: -5px;
+	right: 0;
+}
+.pricetag_h h5 {
+	font-size: 24px;
+	text-align: center;
+	padding-top: 20px;
+	color: #fff;	
+}
+.pricetag_con span {
+	font-size: 32px;
+}
+.pricetag_con h6 {
+	font-size: 20px;
+	color: #147e90;
+	padding-top: 30px;
+}
+.pricetag_img {
+	padding: 30px 0px 45px 0px;
+}
+.pricetag_con a {
+	padding: 15px 20px;
+	background: #147e90;
+	border-radius: 5px;
+}
+.pri {
+	text-align: center;
+	padding-top: 45px;
+	font-size: 16px;
+	color: #999999;
+}
+.price_h h6 {
+	font-size: 20px;
+	color: #147e90;
+	padding: 30px 0px 20px 0px;
+}
+.price_con {
+	margin-left: 18px;
+} 
+.price_con p {
+	padding-bottom: 25px;
+	color: #444444;
+	font-size: 16px;
+}
+.pricing_sen {
+	padding-top: 29px;
+}
+.pricing_sen p {
+	font-size: 14px;
+}
+.pricing_sen h4 {
+	text-align: right;
+	font-size: 16px;
+	padding: 27px 0px 47px 0px;
+}
+.pricing_sen a {
+	font-size: 20px;
+	padding: 15px 118px;
+	background: #147e90;
+	border-radius: 5px;
+}
+/*Pricing CSS Ends*/
+
+/*Testimonal CSS Starts*/
+
+.testi {
+	padding: 100px 0px 100px 0px;
+}
+.testi_team {
+	height: 260px;
+	width: 275px;
+	background: #f1f1f1;
+	position: relative;
+}
+.testi_team:hover {
+	box-shadow: 0px 0px 5px 5px #dedede;
+}
+.testi_team:hover img{
+	box-shadow: 0px 0px 5px 5px #dedede;
+	border-radius: 50px;
+}
+.testi_team h4{
+	font-size: 20px;
+	color: #147e90;
+	padding-top: 80px;
+}
+.testi_team h5{
+	font-size: 16px;
+	color: #444444;
+	padding: 14px 0px 23px 0px;
+}
+.testi_team p{
+	font-size: 14px;
+	color: #444444;
+}
+.testi_img {
+	position: absolute;
+	top: -50px;
+	left: 33%;
+}
+.testi_team_2 {
+	height: 260px;
+	width: 560px;
+	background: #f1f1f1;
+	position: relative;
+}
+.testi_team_2 h4{
+	font-size: 20px;
+	color: #147e90;
+	padding-top: 80px;
+}
+.testi_team_2 h5{
+	font-size: 16px;
+	color: #444444;
+	padding: 14px 0px 23px 0px;
+}
+.testi_team_2 p{
+	font-size: 14px;
+	color: #444444;
+}
+.testi_img_2 {
+	position: absolute;
+	top: -50px;
+	left: 41%;
+}
+.testi_team_2:hover {
+	box-shadow: 0px 0px 5px 5px #dedede;
+}
+.testi_team_2:hover img{
+	box-shadow: 0px 0px 5px 5px #dedede;
+	border-radius: 50px;
+}
+/*Testimonal CSS Ends*/
+
+/*Footer CSS Starts*/
+.footer {
+	background: url(../img/footer.jpg) no-repeat;
+	background-position: center;
+	background-size: cover;
+	padding: 20px 0px 72px 0px;
+}
+.f_logo {
+	padding-bottom: 20px;
+}
+.underline {
+	height: 1px;
+	width: 100%;
+	background: #3b3b3c;
+}
+.f_main {
+	border-right: 1px solid #555555;
+	padding: 30px 60px 0px 0px;
+	text-align: center;
+}
+.f_main_1 {
+	padding: 30px 60px 0px 0px;
+	text-align: center;
+}
+.f_con_i {
+	padding-bottom: 20px;
+}
+.f_main i {
+	font-size: 18px;
+	color: #fff;
+	padding: 9px 12px;
+	background: #147e90;
+	border-radius: 20px;
+}
+.f_main_1 i {
+	font-size: 18px;
+	color: #fff;
+	padding: 9px 12px;
+	background: #147e90;
+	border-radius: 20px;
+}
+.f_main a {
+	font-size: 16px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 500;
+	color: #fff;
+}
+.f_con:last child {
+	border: none;
+}
+.footer h6 {
+	font-size: 20px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 500;
+	color: #fff;
+	text-align: center;
+	padding: 42px 0px 70px 0px;
+}
+.footer_icons i {
+	color: #444444;
+	padding: 11px 13px;
+	border-radius: 20px;
+	background: #fff;
+	margin-left: 30px;
+	transition: all linear .3s;
+}
+.footer_icons i:hover {
+	color: #fff;
+	background: #147e90;
+}
+/*Footer CSS Ends*/
+
+/*Footer end CSS Starts*/
+
+
+.f_end {
+	background: #444444;
+	padding: 20px 0px 22px 0px;
+}
+.f_end p{
+	font-size: 13px;
+	color: #fff;
+}
+.f_end span {
+	font-weight: 700;
+}
+
+
+/*Footer end CSS Ends*/
+
+/*Responsive CSS */
+/*// Large devices (desktops, less than 1200px)*/
+@media (max-width: 1199.98px) { 
+	.navbar-expand-lg .navbar-nav .nav-link {
+    	font-size: 18px;
+	}
+	.navbar-expand-lg .navbar-nav .nav-icon {
+		margin-left: 65px;
+	}
+	.ser_con {
+    	position: absolute;
+   		top: 37px;
+    	left: 34px;
+	}
+	.p_overlay {
+	    height: 311px;
+	    width: 267px;
+		top: 79px;
+		left: 11px;
+	}
+	.t_con {
+		padding-top: 0px;
+	}
+	.t_overlay {
+    	height: 314px;
+    	width: 289px;
+    }
+    .fq_common i {
+    	margin-left: 50px;
+	}	
+	.fq_common {
+    	width: 450px;
+    }	
+    .fq_text {
+    	height: 205px;
+    	width: 410px;
+	}
+	.fq_text p {
+		padding: 20px;
+	}
+	.pricetag {
+    	width: 288px;
+    }	
+    .pricing_sen a {
+    	font-size: 18px;
+    	padding: 15px 80px;
+    }
+    .testi_team {
+    	width: 234px;
+    }	
+    .testi_team_2 {
+        width: 474px;	
+    } 
+
+
+}
+
+/*// Medium devices (tablets, less than 992px)*/
+@media (max-width: 991.98px) { 
+	.navbar-expand-lg .navbar-nav .nav-link {
+		padding-left: 0px;
+	}
+	.navbar-expand-lg .navbar-nav .nav-icon {
+		margin-left: 10px;
+	}
+	.navbar-toggler-icon {
+		color: #fff;
+	}
+	.banner h1 {
+    	font-size: 36px;
+		padding: 70px 0px 10px 0px;
+ 	}
+ 	.banner p {
+    	font-size: 13px;
+    	padding-bottom: 30px;
+	}
+	.banner a {
+    	font-size: 13px;
+	}
+	.numb {
+    	padding-top: 60px;
+	}
+	.ab_right h2 {
+    	font-size: 20px;
+	}
+	.ab_right p {
+    	font-size: 12px;
+		padding-bottom: 30px;
+	}
+	.ab_right a {
+    	font-size: 13px;
+		padding: 10px 15px;
+	}
+	.ser_con h4 {
+    	font-size: 16px;
+	}	
+	.hide {
+		display: none;
+	}
+	.ser_con p {
+    	font-size: 12px;
+    	padding: 5px 0px 5px 0px;
+    	margin: 0px 30px;
+	}
+	.ser_con {
+    	top: 23px;
+    	left: 5px;
+	}
+	.services {
+    	padding: 20px 0px 50px 0px;
+	}
+	.h_service {
+		padding-bottom: 0px;
+	}
+	.h_service h2 {
+    	font-size: 22px;
+	}
+	.c_overlay {
+    	padding: 10px 0px 10px 0px;
+    }
+    .client_part h5 {
+    	font-size: 16px;
+	}
+	.client_part span {
+		font-size: 12px;
+	}	
+	.h_port h2 {
+		font-size: 22px;
+	}
+	.p_overlay {
+    	height: 225px;
+    	width: 192px;
+    	top: 24px;
+    	left: 9px;
+	}
+	.portfolio {
+		padding: 20px 0px 50px 0px;
+	}
+	.p_con {
+    	padding-top: 10px;
+	}
+	.port_bt a {
+    	font-size: 14px;
+    }	
+	.port_bt {
+    	margin-top: 35px;
+	}
+	.t_overlay {
+    	height: 227px;
+    	width: 209px;
+	}
+	.t_icons li {
+		margin-bottom: 0px;
+	}
+	.t_con h6 {
+   		font-size: 18px;
+	}
+	.t_con p {
+    	font-size: 12px;
+	}
+	.t_icons i {
+		margin-top: 15px;
+	}
+	.team_bt {
+    	margin-top: 30px;
+	}
+	.team {
+    	padding: 20px 0px 50px 0px;
+	}
+	.team_bt a {
+		font-size: 14px; 
+	}
+	.fq_common h5 {
+    	padding-top: 10px;
+    	padding-left: 20px;
+   		font-size: 14px;
+	}
+	.fq_common i {
+		margin-left: 40px;
+	}
+	.fq_common {
+		height: 40px;
+    	width: 330px;
+    	margin: 15px 0px 15px 0px;
+	}
+	.fq_text p {
+    	font-size: 12px;
+    	padding: 13px;
+	}
+	.fq_text {
+    	height: 205px;
+    	width: 283px;
+    }
+    .fq {
+    	padding: 20px 0px 30px 0px;
+	}
+	.testi {
+    	padding: 50px 0px 50px 0px;
+	}
+	.testi_team_2 {
+		margin-top: 90px;
+		margin-left: 50%;
+		transform: translateX(-50%);
+	}
+	.testi_team {
+		margin-top: 90px;
+		margin-left: 50%;
+		transform: translateX(-50%);
+	}
+	.testi_img {
+	    top: -50px;
+	    left: 50%;
+	    transform: translateX(-50%);
+	}
+	.footer h6 {
+    	font-size: 16px;
+    	padding: 25px 0px 15px 0px;
+	}
+	.footer {
+    	padding: 20px 0px 20px 0px;
+	}
+	.f_main a {
+    	font-size: 10px;
+    }	
+    .f_main_1 a {
+    	font-size: 10px;
+    }	
+
+
+
+}
+
+/*// Small devices (landscape phones, less than 768px)*/
+@media (max-width: 767.98px) { 
+	.banner p {
+		font-size: 12px;
+	}
+	.ser_con_img {
+		text-align: center;
+		margin-top: 30px;
+	}
+	.ser_con p {
+   		padding: 80px 0px 70px 0px;
+   	 	margin: 0px 110px;
+	}
+	.ser_con h4 {
+		padding-top: 50px;
+	}
+	.fq_common {
+		margin-left: 90px;
+	}
+	.fq_text {
+		margin-left: 100px;
+	}
+	.team_img {
+		text-align: center;
+		margin-top: 30px;
+	}
+	.p_con {
+		text-align: center;
+		margin-top: 15px;
+	}
+	.p_overlay {
+	    height: 395px;
+	    width: 338px;
+	    top: 35px;
+	    left: 86px;
+	}
+	.t_overlay {
+	    height: 400px;
+	    width: 369px;
+	    left: 71px;
+	}
+	.t_icons li {
+    	margin-bottom: 35px;
+	}
+	.f_main {
+		border-right: none;
+	}	
+
+ }
+
+
+
+/*// Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { ... }
+
+/*// Extra large devices (large desktops)
+/* // No media query since the extra-large breakpoint has no upper bound on its width */
