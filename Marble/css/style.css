@@ -1,0 +1,312 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed:700|Roboto+Slab:400,700&display=swap&subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese');
+*{
+	padding: 0;
+	margin: 0;
+}
+h1,h2,h3,h4,h5,h6,p,a {
+	padding: 0;
+	margin: 0;	
+}
+ul,li,ol {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+html {
+	scroll-behavior: smooth;
+}
+body {
+	overflow-x: hidden;
+}
+/*Header CSS Starts*/
+
+#header {
+	background: #e3e3e3;
+	padding: 48px 0px 46px 0px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link  {
+	padding: 0;
+	padding-left: 21px;
+	color: #4e4e4e;	
+	font-size: 16px;
+	transition: all linear .3s;
+	
+	font-family: 'Roboto Condensed', sans-serif;
+
+}
+.navbar-expand-lg .navbar-nav .nav-link:hover {
+	color: #1abb9c;
+}
+/*Header CSS Ends*/
+/*Banner CSS Starts*/
+
+.banner {
+	background: url(../images/background.jpg) no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+
+	padding: 199px 0px 198px 0px;
+}
+.banner h1 {
+	font-size: 40px;
+	color: #f3f3f3;
+	padding-bottom: 55px;
+	font-family: 'Roboto Slab', serif;
+}
+.banner h2 {
+	font-size: 32px;
+	color: #a8a8a8;
+	padding-bottom: 50px;
+	font-family: 'Roboto Slab', serif;
+}
+.banner .b_btn {
+	padding: 17px 26px;
+	background: #3f8dbf; 
+	color: #fff;
+	border-radius: 4px;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+/*Banner CSS Ends*/
+/*Journal CSS Starts*/
+.journal {
+	padding-top: 60px;
+}
+.ser_con h4{
+	padding: 29px 0px 17px 0px;
+	font-size: 18px;
+	font-family: 'Roboto Slab', serif;
+	font-weight: 700;
+}
+.ser_con p {
+	font-size: 14px;
+	font-family: 'Roboto', sans-serif;
+}
+.br {
+	height: 2px;
+	width: 1130px;
+	background: #dcdcdc;
+	margin-top: 60px;
+}
+
+/*Journal CSS Ends*/
+/*Works CSS Starts*/
+.works {
+	padding: 60px 0px 57px 0px;
+}
+.works h4 {
+	font-size: 18px;
+	font-family: 'Roboto Condensed', sans-serif;
+	color: #4e4e4e;
+	text-transform: uppercase;
+	padding-bottom: 24px;
+
+}
+.works h5{
+	font-family: 'Roboto Slab', serif;
+	font-weight: 700;
+	font-size: 18px;
+	padding-top: 25px;
+}
+.works span {
+	display: block;
+	font-size: 13px;
+	font-family: 'Roboto Slab', serif;
+	color: #a8a8a8;
+	padding: 14px 0px 26px 0px;
+}
+.works p {
+	font-size: 14px;
+	font-family: 'Roboto', sans-serif;
+	color: #5c5c5c;
+
+}
+/*Works CSS Ends*/
+/*Feature CSS Starts*/
+.feature {
+	background: #efefef;
+	padding: 54px 0px 64px 0px;
+}
+
+.content p{
+	font-size: 20px;
+	color: #a1a1a1;
+	font-family: 'Roboto Slab', serif;
+	padding-top: 35px;
+
+}
+/*Feature CSS Ends*/
+/*Footer CSS Starts*/
+.footer {
+	background: #000;
+	padding: 50px 0px 50px 0px;
+}
+.footer h6{
+	font-size: 18px;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 700;
+	color: #6c6c6c;
+	padding-bottom: 26px;
+	text-transform: uppercase;
+
+}
+.footer .para{
+	padding-bottom: 34px;
+	display: block;
+	font-family: 'Roboto', sans-serif; 
+	font-size: 14px;
+	color: #cacaca;
+}
+.footer p {
+	font-family: 'Roboto', sans-serif; 
+	font-size: 14px;
+	color: #cacaca;
+	/*padding-bottom: 34px;*/
+}
+.footer a {
+	font-family: 'Roboto', sans-serif; 
+	font-size: 14px;
+	color: #cacaca;
+}
+.footer i {
+	color: #a59372;
+}
+.footer span {
+	font-family: 'Roboto Slab', serif;
+	font-size: 12px;
+	color: #cacaca;
+	padding-bottom: 30px;
+	display: block;
+}
+.para_one {
+	padding-top: 30px;
+}
+.br_one {
+	height: 2px;
+	width: 1130px;
+	background: #383838;
+	margin-top: 10px;
+}
+.footer_para  {
+	padding-top: 50px;
+}
+
+
+/*Footer CSS Ends*/
+
+/* Responsive CSS */
+/*// Large devices (desktops, less than 1200px)*/
+@media (max-width: 1199.98px) { ... }
+
+/*// Medium devices (tablets, less than 992px)*/
+@media (max-width: 991.98px) { 
+
+	.navbar-expand-lg .navbar-nav .nav-link {
+		padding-left: 0px;
+	}
+	.banner {
+		padding: 90px 0px 110px 0px;
+	}
+	.banner h1 {
+		font-size: 32px;
+		padding-bottom: 30px;
+	}
+	.banner h2 {
+		font-size: 24PX;
+		padding-bottom: 30px;
+		
+	}
+	.banner .b_btn {
+		padding: 14px 20px;
+	}
+	.feature {
+		padding: 25px 0px 45px 0px;
+	}
+	.content p {
+		font-size: 15px;
+		padding-top: 15px;
+	}
+	.footer p {
+		font-size: 11px;
+		padding-bottom: 15px;
+	}
+	.footer .para {
+		padding-bottom: 20px;
+		font-size: 12px
+	}
+	.footer a {
+		font-size: 11px;
+	}
+	.br {
+		width: 100%;
+	}
+	.br_one {
+		width: 100%;
+	}
+
+
+ }
+
+/*// Small devices (landscape phones, less than 768px)*/
+@media (max-width: 767.98px) { 
+	#header {
+		padding: 30px 0px 30px 0px;
+	}
+	.banner h1 {
+		font-size: 24px;
+		padding-bottom: 20px;
+	}
+	.banner h2 {
+		font-size: 20px;
+		padding-bottom: 50px;
+	}
+	.banner {
+    	padding: 70px 0px 80px 0px;
+	}
+	.j_con  {
+		padding-bottom: 30px;
+	}
+	.works h5 {
+		font-size: 14px;
+		padding-top: 15px;
+
+	}
+	.works span {
+		padding: 7px 0px 9px 0px;
+		font-size: 10px;
+	}
+	.works p {
+		font-size: 11px;
+	}
+	.content p {
+		font-size: 13px;
+		padding-top: 10px;
+	}
+	.feature {
+    	padding: 15px 0px 30px 0px;
+	}
+	.footer p {
+    	font-size: 10px;
+    	padding-bottom: 5px;
+	}
+	.footer .col-sm-6 {
+		padding-top: 25px;
+	}
+
+
+
+ }
+
+/*// Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { ... }
+
+
+
+/*// Extra large devices (large desktops)
+// No media query since the extra-large breakpoint has no upper bound on its width*/
