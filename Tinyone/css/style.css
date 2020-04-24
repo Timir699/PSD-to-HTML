@@ -1,0 +1,192 @@
+/*Google fonts css starts*/
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i&display=swap&subset=cyrillic,cyrillic-ext,latin-ext');
+/*Google fonts css ends*/
+
+/*Common css starts*/
+*{
+	margin: 0;
+	padding: 0;
+}
+h1,h2,h3,h4,h5,h6,p {
+	margin: 0;
+	padding: 0
+	font-family: 'PT Sans', sans-serif;
+}
+ul,ol,li {
+	list-style: none;
+}
+a:hover {
+	text-decoration: none;
+}
+/*Common css ends*/ 
+/*Header CSS Starts*/
+#header {
+	padding: 60px 0px;
+	background: #fcdb00;
+}
+.menu {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+}
+.logo {
+	width: 15%;
+}
+.nav {
+	width: 85%;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+.nav ul {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	margin-right: 20px;
+
+}
+.nav ul li {
+	margin-left: 72px;
+
+}
+.nav ul li a {
+	color: #000;
+	font-family: 'PT Sans', sans-serif;
+	font-weight: 500;
+	font-size: 22px;
+}
+
+/*Header CSS Ends*/
+
+/*Banner CSS Starts*/
+
+#banner {
+	background: #fcdb00;
+	padding-bottom: 90px;
+}
+.b_con h2 {
+	font-size: 32px;
+	font-weight: 600;
+}
+.b_con p {
+	padding: 22px 0px 26px 0;
+	font-size: 20px;
+}
+.b_con span {
+	font-size: 16px;
+	padding-bottom: 40px;
+	display: block;
+}
+.b_logo a{
+	font-size: 40px;
+	color: #000;
+	margin-right: 40px;
+}
+.b_img {
+	margin-left: 130px;
+}
+.carousel-indicators .size{
+	height: 14px;
+	width: 14px;
+	border-radius:50%;
+}
+/*Banner CSS Ends*/
+/*Feature CSS starts*/
+
+
+.f_heading h3 {
+	font-size: 32px;
+	padding-top: 65px;
+	padding-bottom: 20px;
+	font-weight: 600;
+
+}
+.f_heading p {
+	font-size: 20px;
+	padding-bottom: 93px;	
+}
+.f_item {
+	padding-bottom: 90px;
+}
+.f_item i{
+	font-size: 40px;
+}
+.f_item p {
+	font-size: 22px;
+}
+.f_item span {
+	display: block;
+	font-size: 16px;
+}
+.f_con {
+	margin-left: 34px;
+}
+/*Feature CSS Ends*/
+/*Keep In Touch CSS Starts*/
+#keep {
+	background: #000;
+}
+.k_heading h3 {
+	font-size: 32px;
+	color: #fcdb00;
+	font-weight: 600;
+	padding-top: 97px;
+	padding-bottom: 22px;
+}
+.k_heading p {
+	font-size: 20px;
+	padding-bottom: 42px;
+}
+.k_form {
+	padding-bottom: 80px;
+	padding-left: 180px;
+
+}
+.k_form input {
+	height: 60px;
+	width: 580px;
+	border-radius: 5px;
+	border: none;
+}
+button {
+	padding: 15px 35px;
+	margin-left: 20px;
+	border-radius: 5px;
+	background: #fcdb00;
+	border: none;
+}
+.k_logo {
+	margin-left: -90px;
+	padding-bottom: 133px;
+}
+.k_logo i{
+	font-size: 40px;
+	background:#000;
+	color: #fcdb00;
+	margin-left: 32px;	
+}
+.footer {
+	padding-bottom: 140px;
+}
+.footer p{
+	color: #fff;
+	font-size: 16px;
+}
+.f_email {
+	display: block;
+	color: #fff;
+	font-size: 16px;
+}
+.footer a {
+	color: #fff;
+	font-size: 16px;
+}
+/*Keep In Touch CSS Ends*/
